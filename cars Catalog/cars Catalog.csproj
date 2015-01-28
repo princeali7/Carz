@@ -255,7 +255,10 @@
     <Content Include="js\responsive-tabs.js" />
     <Content Include="js\retina.js" />
     <Content Include="js\selectnav.js" />
-    <Content Include="partials\about-us.html" />
+    <Content Include="lib\angular\angular-animate.min.js" />
+    <Content Include="lib\angular\angular-route.min.js" />
+    <Content Include="lib\angular\angular.min.js" />
+    <None Include="partials\about-us.cshtml" />
     <Content Include="partials\cars.html" />
     <Content Include="partials\Catalog.html" />
     <Content Include="partials\details.html" />
@@ -263,6 +266,8 @@
     <Content Include="partials\header.html" />
     <Content Include="partials\list.html" />
     <Content Include="partials\slider.html" />
+    <Content Include="Scripts\appss1.js" />
+    <Content Include="Scripts\controllers11.js" />
     <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\controllers.spec.js">
       <DependentUpon>controllers.js</DependentUpon>
@@ -610,6 +615,9 @@
     <Content Include="js\json\photo.json" />
     <Content Include="js\json\style.json" />
     <Content Include="js\json\styles.json" />
+    <Content Include="Scripts\data.json" />
+    <Content Include="Scripts\data2.json" />
+    <Content Include="Scripts\datas.json" />
     <None Include="Scripts\vendor\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\vendor\jquery-2.0.3.js" />
     <Content Include="Scripts\vendor\jquery-2.0.3.min.js" />
