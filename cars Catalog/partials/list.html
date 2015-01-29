@@ -1,36 +1,28 @@
-<br><br><br><br><br><section class="artistpage">
-  <div class="search">
-    <h1>Artist Directory</h1>
-    <label>search: </label>
-    <input ng-model="query" placeholder="Search for artists" autofocus>
+﻿
 
-    <label class="formgroup">by:
-      <select ng-model="artistOrder">
-        <option value="name">Name</option>
-        <option value="reknown">Reknown</option>
-      </select>
-    </label>
-
-    <label class="formgroup">
-      <input type="radio" ng-model="direction" name="direction" checked>
-      ascending
-     </label>
-    <label class="formgroup">
-      <input type="radio" ng-model="direction" name="direction" value="reverse">
-      descending
-    </label>
-   
-  </div>
-                        <div> {{menulocation[0]}}</div>
-     <ul class="artistlist" ng-show="query">
-    <li ng-animate="'animate'" class="artist cf" ng-repeat="item in artists | filter: query | orderBy: artistOrder:direction">
-      <a href="#/details/{{artists.indexOf(item)}}">
-        <img ng-src="images/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
-        <div class="info">
-          <h2>{{item.name}}</h2>
-          <h3>{{item.reknown}}</h3>
+<div ng-repeat="item in items |filter : Query">
+    <div class="item col-xs-6 col-sm-6 col-md-4">
+        <div class="search-result-item-container">
+            <div class="search-result-item-media">
+                <img ng-src="../Template/img/car/{{item.Id}}.jpg" alt="">
+            </div>
+            <div class="search-result-item-content">
+                <div class="title"><a href="../Template/{{item.id}}-detail.html">{{item.Text}}</a></div>
+                <ul class="tags grid-hidden">
+                    <li><a href="../Template/#">Lpg= {{item.DueDate}}</a></li>
+                    <li><a href="../Template/#">Used= {{item.Priority}}</a></li>
+                    <li><a href="../Template/#">2l{{item.Priority }}{{item.Id}}</a></li>
+                </ul>
+                <ul class="list-4">
+                    <li><strong>Location:</strong> Los Angels > {{item.DueDate}}</li>
+                    <li><strong>Engine:</strong> 6.5L LP, petrol and {{item.Priority}}</li>
+                    <li><strong>Mileage:</strong> 0 km {{item.Id}}</li>
+                    <li><strong>Condition:</strong> new {{item.Text}}</li>
+                </ul>
+                <p class="grid-hidden">Looking cautiously round, to ascertain that they we. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                <div class="price">$ {{item.Priority}}00,000</div>
+                <a href="../Template/product-detail.html" class="btn btn-default" role="button">Details</a>
+            </div>
         </div>
-      </a>
-    </li>
-  </ul>  
-</section>
+    </div>
+</div>

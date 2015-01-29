@@ -1,26 +1,18 @@
-// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="AssemblyInfo.cs" company="Hewlett-Packard">
-//   Copyright © 2015 Hewlett-Packard
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
-
-using System;
-using System.Reflection;
-using System.Resources;
+ï»¿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("cars Catalog")]
+[assembly: AssemblyTitle("MvcApplication1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hewlett-Packard")]
-[assembly: AssemblyProduct("cars Catalog")]
-[assembly: AssemblyCopyright("Copyright © 2015 Hewlett-Packard")]
+[assembly: AssemblyProduct("MvcApplication1")]
+[assembly: AssemblyCopyright("Copyright Â© Hewlett-Packard 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("en-US")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -28,9 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a4710d58-f70d-44f4-b35e-b41dee97bd86")]
-
-[assembly: CLSCompliant(true)]
+[assembly: Guid("9de31739-5a1d-4db3-ab84-17b47282ee4f")]
 
 // Version information for an assembly consists of the following four values:
 //
