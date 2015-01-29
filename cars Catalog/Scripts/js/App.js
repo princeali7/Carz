@@ -1,5 +1,6 @@
 ﻿var TodoApp = angular.module("TodoApp",
-        ['ngResource', 'ngRoute', 'app.controllers']).
+[
+    'ngResource', 'ngRoute', 'app.controllers', 'AppContrl']).
     config(function ($routeProvider) {
         $routeProvider.
             when('/',
