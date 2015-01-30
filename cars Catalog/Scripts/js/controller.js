@@ -1,7 +1,7 @@
 ﻿angular.module('app.controllers', []);
 
 TodoApp.factory('Todo', function ($resource) {
-    return $resource('/api/todo/:id', { id: '@id' }, { update: { method: 'PUT' } });
+    return $resource('/carzz/api/todo/:id', { id: '@id' }, { update: { method: 'PUT' } });
 });
 
 var ListCtrl = function ($scope, $location, Todo) {
